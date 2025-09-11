@@ -17,6 +17,7 @@ user_money_mutable -= nickels * .05
 #Get penny count
 pennies = int(user_money_mutable / .01)
 
+print("The minimum amount of coins required is: ")
 print(f"{quarters} quarters, {dimes} dimes, {nickels} nickels, {pennies} pennies")
 
 
